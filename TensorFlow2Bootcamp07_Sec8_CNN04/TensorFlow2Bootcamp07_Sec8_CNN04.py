@@ -26,7 +26,10 @@ from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten, Dropout
 
 import os
 
-data_dir = "cell_images" # The folder cell_images is in current directory
+#path to root of FirstPython
+root_path = "C:\\Tim\\VSCodeProjects\\FirstPython"
+
+data_dir = root_path + "\\TensorFlow2Bootcamp07_Sec8_CNN04\\cell_images" # The folder cell_images is in current directory
 print(os.listdir(data_dir))
 # ['test', 'train']
 #"cell_images\\train"
